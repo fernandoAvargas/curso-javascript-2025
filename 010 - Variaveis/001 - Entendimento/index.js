@@ -13,6 +13,7 @@ const  É gerado dentro de um escopo porém só pode ser armazenado somente uma 
 // Quando for criar as varáveis não utilize palavras reservas exemplo: Break, Else, String etc;
 // Sempre tente segui um padrão para criação de nomes de variáveis que começam com número, caracteres especiais, 
 // separados por traço ou espaços em branco
+// Sempre pense em criar variáveis com nome que façam sentido com o que você está desenvolvendo n momento Ex: nomeSobrenome
 
 var cachorro = "titico";
 console.log(cachorro);
