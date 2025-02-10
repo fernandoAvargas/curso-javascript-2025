@@ -2,14 +2,12 @@
 
 // IIFE - Expressão de função invocada imediatamente
 
-
 // (function(){})();
 
 
 (function(){
     console.log("Teste");
 })();
-
 
 
 function consol(con){
@@ -65,7 +63,6 @@ var teste2 = "teste2";
     var teste = "teste1";
     console.log(teste2);
 })();
-
 
 (() => {
     var teste = "teste2";
