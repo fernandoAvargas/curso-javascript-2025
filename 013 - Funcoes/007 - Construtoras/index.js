@@ -1,9 +1,16 @@
 /*
-  Utilizado no paradgma de Orientação a Objetos o construtor cria um objeto a partir dessa função em tempo de execução.
+   Utilizado no paradgma de Orientação a Objetos o construtor cria um objeto a partir da classe. No JavaScript é
+   possível simular o paradigma OO através de uma função que assim como no construtor da classe criará o objeto
+   em tempo de execução.
+
+   No JvavaScript existem várias funções construtoras como a função Date()...  Aqui iremos criar nossas próprias
+   funções contrutoras.
 
   Obs: Como convenção o nome de uma função inicia com letra maiúscula
 
 */
+
+console.log(new Date());
 
 function Name(){}
 
@@ -105,3 +112,5 @@ const calc2 = new Calculadora2();
 console.log(calc2.soma(1,2));
 
 console.log(calc2.subtracao(3,6));
+
+console.log(new Calculadora2().soma(10,10)); // Chamada direta de função.
