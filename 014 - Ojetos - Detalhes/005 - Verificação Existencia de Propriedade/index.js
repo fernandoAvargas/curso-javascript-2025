@@ -13,7 +13,7 @@ const Produto = {
 
 console.log(Produto.hasOwnProperty("teste"));
 
-// Com isso é possível fazer validações
+// Com isso é possível fazer validações. Nesse caso vai dar FALSE porque não existe a propriedade "teste"
 
 if(Produto.hasOwnProperty("peso")){
     console.log("A propriedade tamanho existe em Produto");
