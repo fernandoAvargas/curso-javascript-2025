@@ -33,7 +33,7 @@ function Tenis2(tamanho,estoque,preco){
   };
 
   console.log(Tenis3);
-
+  
   const Tenis4 = {
     getTamanho(){
       return 45;
