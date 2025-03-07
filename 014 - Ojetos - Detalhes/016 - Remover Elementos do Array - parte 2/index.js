@@ -40,5 +40,5 @@ console.table(spliceArrayList);
 
 console.table(arrayList.splice(3,1));
 
-console.table(arrayList); //Removeu o smart watch e ainda organizou a lista
+console.table(arrayList); //Removeu o smart watch e ainda organizou o arrayList
 
