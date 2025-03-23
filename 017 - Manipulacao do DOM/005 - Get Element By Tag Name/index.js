@@ -11,7 +11,7 @@ const h1 = document.getElementsByTagName("h1");
 
 console.log(p1); // Funciona
 
-console.log(p2); // Não funciona porque só reconhece tag´s html e não pelo classe
+console.log(p2); // Não funciona porque só reconhece tag´s html e não pelo nome da classe
 
 console.log(p3); // Não funciona porque só reconhece tag´s html e não pelo id
 
