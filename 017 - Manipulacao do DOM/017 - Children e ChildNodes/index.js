@@ -7,7 +7,7 @@ console.log(container.children); // Retorna um html collection e não pode ser i
 
 console.log(container.childNodes); // Retorna um nodeList e pode ser iterado, mas retorna espaços vazios do html junto com as informações que inclusive são parecidas com a abordagem anterior.
 
-const children = Array.from(container.children);
+const children = Array.from(container.children); // Resolve a questão de aparecer os espaços vazios 
 
 console.log(children);
 
