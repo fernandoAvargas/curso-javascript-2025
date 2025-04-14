@@ -1,4 +1,4 @@
-"Use Strict";
+"Use strict";
 
 const link = document.querySelector("a");
 
